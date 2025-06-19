@@ -12,7 +12,7 @@ public class VariablesDemo {
         char charValue = 'M';
 
 
-        String name = "Mahesh";
+        String name = "Mahe";
         String message = "Welcome to Java Programming";
         System.out.println(message);
         System.out.println(bytenumber);

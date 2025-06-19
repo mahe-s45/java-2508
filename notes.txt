@@ -1,0 +1,56 @@
+6th June
+========
+   ==> Variables
+
+        -> Variables are names of memory locations
+        -> Variables are used to store data
+        -> Variables will be processed(read/update/delete) using programs
+
+  -> Variable Syntax
+    -> datatypes variables_Name = value;
+
+  --> Data Types
+
+    -> Data Types define the type of data and size for the data.
+
+    -> Data Types Classification
+      -> Primitive Data Types
+      -> Non-Primitive Data Types(Reference Data Types)
+
+    -> Primitive Data Types
+      -> We Have 8 Primitive Data Types
+
+        1: byte
+        2: short
+        3: Int
+        4: long
+        5: Float
+        6: Double
+        7: Char
+        8: Boolean     
+
+
+16th June - Loops
+=================
+
+--> Loop : Loops are used to EXECUTE block of code --> REPEATEDLY --> Based on CONDITION
+
+  -> When to use Loops: To perform/Automate REPEATEDLY TASKS
+
+--> Types Of Loops
+
+  -> For Loop
+
+    -> Ideal for situations, Where you already know in ADVANCE, how many times you 
+       want to do a task.
+
+    -> for {Intialiazation, condition, increment/Decrement}  
+
+-> While Loop
+
+  -> Ideal for situations, where you don't know in ADVANCE, how many times you
+     want to do a task.
+
+-> Do-While Loop
+
+  -> Same as While Loop, but runs the code AT LEAST ONCE, before checking the CONDITION
