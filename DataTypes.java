@@ -36,20 +36,6 @@ public class DataTypes {
         System.out.println("Engine: "+engineCCmin +"CC - "+ engineCCmax +"CC");
         System.out.println("Seating Capacity: "+seatingCapacity);
         
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
     }
     
 }
