@@ -29,7 +29,7 @@ public class TypeCC {
       System.out.println(newData+100); // String concatenation
 
       // Conversion Not Possible At All
-      int testNumber = 10;
+     // int testNumber = 10;
     // boolean isCorrect = testNumber; //true / false
     }
     
