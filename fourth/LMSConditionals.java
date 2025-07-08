@@ -1,6 +1,6 @@
 package fourth;
 
-import java.net.Socket;
+//import java.net.Socket;
 
 public class LMSConditionals {
     public static void main(String[] args) {
