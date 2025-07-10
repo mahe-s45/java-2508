@@ -14,7 +14,7 @@ public class LMSGradeTracker {
         scanner.nextLine(); // read the new line
         String studentName = scanner.nextLine();
 
-        double attendence = 0;
+        double attendence = 80;
         int totalScore = 0;
         int numberOfSubjects = 0;
 
@@ -48,11 +48,26 @@ public class LMSGradeTracker {
                     performance = "Need Improvement";
             }
 
+            // Attendence Status
+            String AttendenceStatus;
+            if (attendence < 75) {
+                AttendenceStatus = "Warming Low Attendence.";
+            } else {
+                AttendenceStatus = " Good Attenence";
+            }
+
+            // Ternery 
+            String attendenceStatus = attendence < 75 ? "Warming Low Attendence" : "Good Attendence";
+
         System.out.println("Student ID: "+studentID);
         System.out.println("Student Name: "+studentName);
         System.out.println("Total Score: "+totalScore);
         System.out.println("Average Score: "+avgScore);
         System.out.println("Your Performence: "+performance);
+        System.out.println("Your Attendence: "+AttendenceStatus);
+        System.out.println("Your Attendence: "+attendenceStatus);
+
+        scanner.close();
         
     }
 
