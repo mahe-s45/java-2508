@@ -24,7 +24,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        int a = 1; // local Variables
+        int a = 1; // local Variable
         System.out.println(a);
         Test t1 = new Test();
         System.out.println("Sum of values is "+t1.addNumbers());
